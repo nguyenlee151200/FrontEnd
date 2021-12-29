@@ -1,0 +1,115 @@
+/* Global Classes */ 
+
+.title-text{
+    position: relative;
+    font-size: 40px;
+    letter-spacing: 0.2rem;
+    padding-top: 5rem;
+}
+.title-text::after{
+    content: '';
+    position: absolute;
+    top: 110%;
+    left: 46%;
+    height: 0.2rem;
+    width: 8%;
+    background-color: rgb(20, 165, 140);
+}
+
+
+/* Buttons */ 
+
+
+.btn{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/25px var(--titillium);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    
+}
+
+.btn.primary-button{
+    background: var(--primary-color2);
+    background-clip: border-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.btn.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    border-radius: 4px;
+}
+
+.btn.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background: var(--primary-color2);
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.btn.secondary-button{
+    background: rgb(95, 216, 200);
+    background-clip: padding-box;
+    transition: background .6s ease;
+    margin-bottom: 6rem;
+}
+
+.btn.secondary-button:hover{
+    background: var(--primary-color);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+
+p.line{
+    padding: 1rem ;
+    font-size: 18px;
+}
+p.para{
+    color: var(--text-color);
+    font: normal var(--titillium);
+    font-size: 15px;
+}
+span.position{
+    color: var(--text-color2);
+    font-size: 14px;
+}
+h5{
+     text-transform: uppercase;
+ }
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1{
+    font: normal bold 39px/ 40px var(--titillium);
+}
+
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0; right: 0;
+    background: #9398b9;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
+}

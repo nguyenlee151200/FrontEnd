@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;  
+    
+}
+section{
+    overflow-x: hidden;
+}
+header{
+    background-color: #19283f;
+}
+header a.nav-link{
+    color: white;
+}
+header a:hover{
+    color: rgb(255, 49, 80);
+}
+header .container .row .col-md-12.col-sm-12{
+    padding: 15vmin;
+    color: white;
+}
+header .container .row .col-md-12.col-sm-12 h6{
+    font-size: 3rem;
+    font-weight: 200;
+}
+header .container .row .col-md-12.col-sm-12 p{
+    font-size: 1rem;
+   
+}
+.btn{
+    background-color:rgb(255, 49, 80) ;
+    border-radius: 1.5rem;
+}
+
+/* END HEADER */
+
+.img{
+    padding: 5vmin  0 ;
+}
+.line{
+    color: gray;
+    font-size: 0.8rem;
+    font-weight: 500;
+    position: relative;
+}
+.line::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    background-color: rgb(51, 209, 204);
+    top: 120%;
+    left:  10%;
+}
+.services .row .col-sm-4{
+    padding: 2vmin 4vmin;
+    
+}
+.services .row .col-sm-4 .number_under span{
+   font-size: 12rem;
+   font-weight: 650;
+   color: rgb(239, 247, 250);
+   position: relative;
+}
+.services .row .col-sm-4 .number_under .icon_up{
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 43%;
+}
+.services .row .col-sm-4 .number_under .icon_up img{
+    width: 80%;
+}
+.services .row .col-sm-4 h3{
+   color: rgb(255, 201, 27);
+   font-size: 0.8rem;
+   font-weight: 600;
+}
+.para{
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.3rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+/* END SERVICES */
+section.portfolio{
+    background-color: rgb(239, 247, 250);
+    padding-bottom: 10vmin;
+}
+.portfolio .row .col-sm-12 .menu_portfolio{
+    text-align: center;
+    list-style: none;
+    padding: 5vmin 0vmin;
+}
+.portfolio .row .col-sm-12 .menu_portfolio li{
+    display: inline-block;
+    line-height: 3rem;
+    padding: 0vmin 6vmin; 
+}
+.portfolio .row .col-sm-12 .menu_portfolio li a{
+    text-decoration: none;
+    color: gray;
+}
+.portfolio .row .col-sm-12 .menu_portfolio li:hover {
+    background-color: rgb(255, 49, 80);
+    border-radius: 2rem ;
+}
+.portfolio .row .col-sm-12 .menu_portfolio li:hover a{
+    color: rgb(255, 201, 27);
+}
+/* end menu */
+.portfolio .row .col-md-3.col-xs-6{
+    padding-bottom: 5vmin ;
+}
+.portfolio .row .col-md-3.col-xs-6 .background{
+    background-color:rgb(51, 209, 204) ;
+}
+.portfolio .col-md-3.col-xs-6 .text_portfolio{
+    padding: 10vmin 0vmin;
+}
+/* END PORTFOLIO */
+.about_us{
+    margin-bottom: 5vmin;
+}
+.about_us .row  .col-lg-4.col-md-12.about-title{
+    padding-top: 20vmin;
+}
+.about_us .row .col-md-7.col-sm-12 .para.top{
+    padding: 5vmin;
+}
+.about_us .row .col-lg-8.col-md-12 .laptop{
+    position: relative;
+}
+.about_us .row .col-lg-8.col-md-12 .screen{
+    position: absolute;
+    z-index: 2;
+    top: 6%;
+    left: 14%;
+}
+/* END ABOUT_US */
+section.meet_the_team{
+    background-color:rgb(239, 247, 250) ;
+}
+.meet_the_team .container .row .col-sm-10 h2{
+    padding: 10vmin 0vmin 2vmin 0vmin;
+    color: rgb(255, 201, 27);
+}
+.meet_the_team .container .row .col-sm-10 .para{
+    padding-bottom: 5vmin;
+}
+.meet_the_team .col-md-3.col-sm-12{
+    padding-bottom: 10vmin;
+}
+.meet_the_team .row .col-md-3.col-sm-12 .card .card-body{
+    padding: 25vmin 0vmin 0vmin 0vmin;
+}
+.meet_the_team .row .col-md-3.col-sm-12 .card .card-body h5.card-title{
+    line-height: 3rem;
+    background-color:rgb(51, 209, 204) ;
+    color: white;
+}
+.meet_the_team .row .col-md-3.col-sm-12 .card .card-body p.card-text{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 0.8rem;
+    padding:4vmin;
+}
+/* END MEET_THE_TEAM */
+section.client{
+    padding: 5vmin 0vmin;
+}
+/* END CLIENT */
+section.advertise{
+    background-color: #19283f;
+    padding: 15vmin 0vmin ;
+}
+/* END ADVERTISE */
+section.blog .container .row.pro{
+   padding: 5vmin 0vmin;
+   font-family: 'Roboto', sans-serif; 
+}
+.blog .container .row.pro .img_blog{
+    height: 8rem;
+    background-color: rgb(239, 247, 250);
+}
+.blog .container .row.pro p.time{
+    padding-top: 1vmin;
+    margin-bottom: 0vmin;
+    font-size: 0.8rem;
+    color: gray;
+}
+.blog .container .row.pro span.blog_title{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.blog .row.text-center {
+    padding-bottom: 5vmin;
+}
+/* END BLOG */
+section.newsletter{
+    background-color: rgb(255, 201, 27);
+    line-height: 10vmin;
+}
+.newsletter .row .col-sm-4 span{
+    font-weight: 600;
+}
+.newsletter .row .col-sm-4 p.email_address{
+    position: relative;
+    font-weight: 100;
+    font-size: 0.8rem;
+    color: white;
+    letter-spacing: 0.1rem;
+}
+.newsletter .row .col-sm-4 p.email_address::after{
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    width:120%;
+    height: 0.1rem;
+    background-color: white;
+}
+/* END NEWSLETTER */
+footer{
+    background-color: #19283f;
+}
+footer .row .col-md-4.col-sm-12 .navbar-brand{
+    padding: 0vmin;
+}
+footer .row .list-pick{
+    margin-bottom: 10vmin;
+}
+footer .row  h6{
+    color: #f1f1f1;
+}
+footer .row .list-pick li{
+    padding: 1vmin 0vmin
+
+}
+footer .row .list-pick a{
+    font-size: 0.8rem;
+}
+footer .row  .social ul {
+    list-style-type: none;
+    text-align: left;
+    padding-top: 5vmin;
+  }
+footer .row  .social ul li {
+    color: #f1f1f1;
+    display: inline-block;
+    padding-right: 1vmin;
+   
+  }
+footer .row  .social ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    width: 1.5rem;
+    border-radius: 1.5rem
+  }
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#19283f;
+    z-index:9999;
+    transition: all 0.8s ease;
+}
+ 

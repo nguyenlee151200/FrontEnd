@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body class="destination-body">
+  <header class="header-home">
+    <a href="" class="logo">
+      <img class="logo-svg" src="./assets/shared/logo.svg" alt="">
+    </a>
+    <hr>
+    <nav>
+      <div href="" class="menu-button">
+        <img src="./assets/shared/icon-hamburger.svg" alt="" id="menu-logo">
+      </div>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="index.html" class="visited-link"><span class="number">00</span>Home</a></li>
+        <li><a href="destination-titan.html" class=""><span class="number">01</span>Destination</a></li>
+        <li><a href="crew-specialist.html" class=""><span class="number">02</span>Crew</a></li>
+        <li><a href="technology-vehicle.html" class=""><span class="number">03</span>Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--------END HEADER-MAIN------->
+  <h1 class="destination-heading heading"><span class="h5-number">01</span>Pick your destination</h1>
+
+  <section class="section-destination">
+    <div class="planet-img-container">
+      <img src="./assets/destination/image-moon.png" alt="" class="planet-img" id="planet-img">
+    </div>
+    <div class="tab-container">
+      <ul class="tablist">
+        <li>
+          <a href="javascript:void()" class="nav-text visited-link" id="moon-tab" aria-controls="moon" aria-selected="true" role="tab">Moon</a>
+        </li>
+        <li>
+          <a href="javascript:void()" class="nav-text " id="mars-tab" aria-controls="mars" aria-selected="false" role="tab">Mars</a>
+        </li>
+        <li>
+          <a href="javascript:void()" class="nav-text " id="europa-tab" aria-controls="europa" aria-selected="false" role="tab">Europa</a>
+        </li>
+        <li>
+          <a href="javascript:void()" class="nav-text " id="titan-tab" aria-controls="titan" aria-selected="false" role="tab">Titan</a>
+        </li>
+      </ul>
+      <div id="moon" class="tabpanel" role="tabpanel" aria-labelledby="moon-tab">
+        <h2 class="dest-heading">MOON</h2>
+        <p>See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        <hr>
+        <div class="facts">
+          <div>
+            <h6 class="heading-6">avg.Distance</h6>
+            <p class="subheading">364,400 km</p>
+          </div>
+          <div class="second-fact">
+            <h6 class="heading-6">est. Travel Time</h6>
+            <p class="subheading">3 Days</p>
+          </div>
+        </div>
+      </div>
+      <div id="mars" class="tabpanel" role="tabpanel" aria-labelledby="mars-tab" hidden>
+        <h2 class="dest-heading">MARS</h2>
+        <p>See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        <hr>
+        <div class="facts">
+          <div>
+            <h6 class="heading-6">avg.Distance</h6>
+            <p class="subheading">364,400 km</p>
+          </div>
+          <div class="second-fact">
+            <h6 class="heading-6">est. Travel Time</h6>
+            <p class="subheading">3 Days</p>
+          </div>
+        </div>
+      </div>
+      <div id="europa" class="tabpanel" role="tabpanel" aria-labelledby="europa-tab" hidden>
+        <h2 class="dest-heading">EUROPA</h2>
+        <p>See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        <hr>
+        <div class="facts">
+          <div>
+            <h6 class="heading-6">avg.Distance</h6>
+            <p class="subheading">364,400 km</p>
+          </div>
+          <div class="second-fact">
+            <h6 class="heading-6">est. Travel Time</h6>
+            <p class="subheading">3 Days</p>
+          </div>
+        </div>
+      </div>
+      <div id="titan" class="tabpanel" role="tabpanel" aria-labelledby="titan-tab" hidden>
+        <h2 class="dest-heading">MOON</h2>
+        <p>See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        <hr>
+        <div class="facts">
+          <div>
+            <h6 class="heading-6">avg.Distance</h6>
+            <p class="subheading">364,400 km</p>
+          </div>
+          <div class="second-fact">
+            <h6 class="heading-6">est. Travel Time</h6>
+            <p class="subheading">3 Days</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </section>
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* css global*/
+@import url(./partials/_global.css);
+
+*{
+    margin: 0;
+    padding: 0;  
+    
+}
+/* start navigation */ 
+.header_area{
+    background-color: rgb(135, 80, 156);
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--titillium);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--primary-color2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--primary-color2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* end navigation */ 
+.header_area .container .row .col-12{
+    padding: 2rem 0 8rem 0;
+    color: white;
+}
+.header_area .container .row .col-12 .title-header{
+    padding: 3rem 0;
+}
+/* .header_area .container .row .col-12 p{
+    font-size: 1rem;
+   
+} */
+/* END HEADER */
+
+.site-main .service{ 
+    background-color: rgb(23, 194, 164);
+    color: var(--text-color);
+}
+.site-main .service .row .col-lg-3.col-md-6.col-12 {
+    padding: 3rem 0 5rem 0;
+}
+.site-main .service .row .col-lg-3.col-md-6.col-12 h5{
+    padding: 3rem 0 0.5rem 0;
+}
+.site-main .service .row .col-lg-3.col-md-6.col-12 p.para{
+    padding: 0 3rem;
+}
+/* END SERVICE */
+.team{ 
+    background-color: rgb(231, 241, 248);
+}
+.site-main .team .title-text::after{
+    background-color: rgb(200, 217, 229);
+}
+.site-main .team .col-lg-3.col-md-6.col-12{
+    padding: 3rem 0 5rem 0;
+}
+.site-main .team .col-lg-3.col-md-6.col-12 h5{
+    padding-top: 2rem;
+}
+.site-main .team .col-lg-3.col-md-6.col-12 p.para{
+    padding: 1rem 2.5rem;
+    color: var(--text-color1);
+}
+/* END TEAM */
+.skills .col-lg-3.col-md-6.col-12 {
+    padding: 3rem 0;
+}
+.skills .col-lg-3.col-md-6.col-12 .chart{
+    position: relative;
+    margin: 0 auto;
+    width: 180px ;
+    height: 180px;
+    line-height: 160px;
+    font-size: 30px;
+    text-align: center;
+}
+.skills .col-lg-3.col-md-6.col-12 .chart canvas
+{
+	position: absolute;
+    top: 0%;
+    left: 0%;
+    
+}
+.skills .col-lg-3.col-md-6.col-12 .chart .percent
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.skills .col-lg-3.col-md-6.col-12 .chart .percent
+{
+	position: relative;
+	line-height: 1;
+	font-size: 60px;
+	font-weight: 300;
+    z-index: 2;
+    
+}
+
+.skills .col-lg-3.col-md-6.col-12 .chart .percent:after
+{
+	content: attr(data-after);
+	font-size: 30px;
+
+}
+.skills .col-lg-3.col-md-6.col-12 h5{
+    padding: 2rem 0;
+}
+
+ /* END SKILLS*/
+
+.portfolio{
+    background-color: rgb(255, 221, 153);
+}
+.portfolio .button-group{
+    padding-bottom: 4rem;
+}
+.portfolio .button-group button{
+    background: rgb(235, 201, 133);
+    border-radius: 0.5rem;
+    font: normal 500 130px ;
+    text-transform: uppercase;
+    width: 6rem;
+    height: 2rem; 
+    outline: 0;
+    border: 0;
+    margin-top: 1rem;
+    
+}
+.portfolio .button-group button:hover{
+    background: rgb(255, 255, 255);
+    
+}
+
+.portfolio .grid .our-project > .title h6{
+    font: normal 700 15px/40px var(--titillium);
+}
+.portfolio .grid .our-project .img a img{
+   width: 100%;
+}
+.portfolio .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* END PORTFOLIO */
+.testimonials{
+    background-color: rgb(215, 70, 128);
+    color: #fff;
+}
+.testimonials .row{
+    padding: 2rem 0;
+}
+.testimonials p.para{
+    font-size: 20px;
+    font-family: serif;
+    font-style: italic;
+}
+.testimonials span.position{
+    color: rgb(239, 168, 142);
+}
+/* END MAIN */
+.get_in_touch{
+    background-color: #336699;
+    color: #fff;
+}
+.get_in_touch .row{
+    padding: 1rem 0;
+}
+.get_in_touch .info input{
+    background-color: #273a71;
+}
+.get_in_touch .info textarea{
+    background-color: #273a71;
+}
+.get_in_touch .row button{
+    margin-top: 2rem;
+}
+.get_in_touch .social{
+    background-color: #344b8e;
+}
+.get_in_touch .social ul li{
+    padding: 0 1rem;
+}
+.get_in_touch .social ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}

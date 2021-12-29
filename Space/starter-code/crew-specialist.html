@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="crew-body">
+  <header class="header-home">
+    <a href="" class="logo">
+      <img class="logo-svg" src="./assets/shared/logo.svg" alt="">
+    </a>
+    <hr>
+    <nav>
+      <div href="#" class="menu-button">
+        <img src="./assets/shared/icon-hamburger.svg" alt="" id="menu-logo">
+      </div>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="index.html" class="visited-link"><span class="number">00</span>Home</a></li>
+        <li><a href="destination-titan.html" class=""><span class="number">01</span>Destination</a></li>
+        <li><a href="crew-specialist.html" class=""><span class="number">02</span>Crew</a></li>
+        <li><a href="technology-vehicle.html" class=""><span class="number">03</span>Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--------END HEADER-MAIN------->
+  <h1 class=" crew-heading destination-heading heading"><span class="h5-number">02</span>Meet your crew</h1>
+
+  <section class="section-crew">
+    <div class="tab-container-crew">
+      <div class="info" id="commander" role="tabpanel" aria-labelledby="commander-tab">
+        <h2 class="heading-2">
+          <span class="speciality link-font-size">Commander</span>Douglas Hurley
+        </h2>
+        <p class="crew-para">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2</p>
+      </div>
+      <div class="info" id="mission-specialist" role="tabpanel" aria-labelledby="specialist-tab" hidden>
+        <h2 class="heading-2">
+          <span class="speciality link-font-size">Mission Specialist</span>Douglas Hurley
+        </h2>
+        <p class="crew-para">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2</p>
+      </div>
+      <div class="info" id="pilot" role="tabpanel" aria-labelledby="pilot-tab" hidden>
+        <h2 class="heading-2">
+          <span class="speciality link-font-size">Commander</span>Douglas Hurley
+        </h2>
+        <p class="crew-para">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2</p>
+      </div>
+      <div class="info" id="flight-engineer" role="tabpanel" aria-labelledby="engineer-tab" hidden>
+        <h2 class="heading-2">
+          <span class="speciality link-font-size">Commander</span>Douglas Hurley
+        </h2>
+        <p class="crew-para">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2</p>
+      </div>
+      <ul class="crew-tablist" role = "tablist">
+        <li role ="presentation"><a href="javascript:void()" id="commander-tab" class="circle nav-circle active-circle" aria-controls="commander" role="tab" aria-selected="true"></a></li>
+        <li role ="presentation"><a href="javascript:void()" id="specialist-tab" class="circle nav-circle" aria-controls="mission-specialist" role="tab" aria-selected="false"></a></li>
+        <li role ="presentation"><a href="javascript:void()" id="pilot-tab" class="circle nav-circle" aria-controls="pilot" role="tab" aria-selected="false"></a></li>
+        <li role ="presentation"><a href="javascript:void()" id="engineer-tab" class="circle nav-circle" aria-controls="flight-engineer" role="tab" aria-selected="false"></a></li>
+      </ul>
+    </div>
+    
+    <img src="./assets/crew/image-douglas-hurley.png" alt="" class="" id="specialist-img">
+
+  </section>
+ <script src="main.js"></script>
+</body>
+
+</html>
